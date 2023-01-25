@@ -12,6 +12,8 @@
     .div4 { grid-area: 3 / 3 / 6 / 6; }
 
 
-    .div1{
-      background-image: url("../image/boeuf\ resto.webp");
-    }
+.div1{
+  background-color: aqua;
+  height: 20vh;
+  width: 50vw;
+}
