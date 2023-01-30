@@ -1,0 +1,23 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; } 
+
+.div1{
+    display: block;
+    text-align: center;
+}
+
+    .div2{
+        border: 1px solid red;
+        width: auto;
+        height: 80vh;
+        background-image: url(../image/burguer.jpg);
+        background-size: cover;
+    }
